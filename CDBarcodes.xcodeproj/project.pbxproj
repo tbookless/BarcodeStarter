@@ -18,6 +18,9 @@
 		2CA0E8571C5BD116007F20DE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0E8561C5BD116007F20DE /* Constants.swift */; };
 		2CA0E8591C5BD12C007F20DE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0E8581C5BD12C007F20DE /* DataService.swift */; };
 		2CA0E85B1C5BD143007F20DE /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0E85A1C5BD143007F20DE /* Album.swift */; };
+		42D90B91EFE9EDD2EA068A47 /* Pods_CDBarcodesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72649B4013CBA002DC300EAA /* Pods_CDBarcodesUITests.framework */; };
+		7E51BF21A01190B202D52E09 /* Pods_CDBarcodesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C80BD28C883628E40080CD /* Pods_CDBarcodesTests.framework */; };
+		C6E40738848D13564F4581E2 /* Pods_CDBarcodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939DDA924A660CD7B8D18E0C /* Pods_CDBarcodes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		289DE7ECAA68A98E3811F766 /* Pods-CDBarcodesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBarcodesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDBarcodesTests/Pods-CDBarcodesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2CA0E81C1C5BCC21007F20DE /* CDBarcodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDBarcodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA0E81F1C5BCC21007F20DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA0E8241C5BCC21007F20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +59,14 @@
 		2CA0E8561C5BD116007F20DE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2CA0E8581C5BD12C007F20DE /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		2CA0E85A1C5BD143007F20DE /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		3BD5138B917D7917B4BA445F /* Pods-CDBarcodesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBarcodesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBarcodesTests/Pods-CDBarcodesTests.release.xcconfig"; sourceTree = "<group>"; };
+		48C80BD28C883628E40080CD /* Pods_CDBarcodesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDBarcodesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914FF8F2E0BBFC61787C47E /* Pods-CDBarcodes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBarcodes.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBarcodes/Pods-CDBarcodes.release.xcconfig"; sourceTree = "<group>"; };
+		55D9791DDBAB24B023BDE55C /* Pods-CDBarcodesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBarcodesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDBarcodesUITests/Pods-CDBarcodesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72649B4013CBA002DC300EAA /* Pods_CDBarcodesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDBarcodesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0382B9731C285BDDC607EF /* Pods-CDBarcodesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBarcodesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBarcodesUITests/Pods-CDBarcodesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		939DDA924A660CD7B8D18E0C /* Pods_CDBarcodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDBarcodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2661E07D107A12BCF6AB3E0 /* Pods-CDBarcodes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBarcodes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDBarcodes/Pods-CDBarcodes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E40738848D13564F4581E2 /* Pods_CDBarcodes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E51BF21A01190B202D52E09 /* Pods_CDBarcodesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D90B91EFE9EDD2EA068A47 /* Pods_CDBarcodesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,8 @@
 				2CA0E8331C5BCC21007F20DE /* CDBarcodesTests */,
 				2CA0E83E1C5BCC21007F20DE /* CDBarcodesUITests */,
 				2CA0E81D1C5BCC21007F20DE /* Products */,
+				914226015A5E44759446520B /* Pods */,
+				543597E5274260E4CB35C84E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +186,29 @@
 			name = Service;
 			sourceTree = "<group>";
 		};
+		543597E5274260E4CB35C84E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				939DDA924A660CD7B8D18E0C /* Pods_CDBarcodes.framework */,
+				48C80BD28C883628E40080CD /* Pods_CDBarcodesTests.framework */,
+				72649B4013CBA002DC300EAA /* Pods_CDBarcodesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		914226015A5E44759446520B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2661E07D107A12BCF6AB3E0 /* Pods-CDBarcodes.debug.xcconfig */,
+				4914FF8F2E0BBFC61787C47E /* Pods-CDBarcodes.release.xcconfig */,
+				289DE7ECAA68A98E3811F766 /* Pods-CDBarcodesTests.debug.xcconfig */,
+				3BD5138B917D7917B4BA445F /* Pods-CDBarcodesTests.release.xcconfig */,
+				55D9791DDBAB24B023BDE55C /* Pods-CDBarcodesUITests.debug.xcconfig */,
+				8D0382B9731C285BDDC607EF /* Pods-CDBarcodesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CA0E8441C5BCC21007F20DE /* Build configuration list for PBXNativeTarget "CDBarcodes" */;
 			buildPhases = (
+				D20E6D085C4272DDD0E95FA3 /* [CP] Check Pods Manifest.lock */,
 				2CA0E8181C5BCC21007F20DE /* Sources */,
 				2CA0E8191C5BCC21007F20DE /* Frameworks */,
 				2CA0E81A1C5BCC21007F20DE /* Resources */,
+				06451DC673D24065A26DD0C8 /* [CP] Embed Pods Frameworks */,
+				DC77D73BED0ECFD8FA19154E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CA0E8471C5BCC21007F20DE /* Build configuration list for PBXNativeTarget "CDBarcodesTests" */;
 			buildPhases = (
+				664C5787E3A9199DF9541B33 /* [CP] Check Pods Manifest.lock */,
 				2CA0E82C1C5BCC21007F20DE /* Sources */,
 				2CA0E82D1C5BCC21007F20DE /* Frameworks */,
 				2CA0E82E1C5BCC21007F20DE /* Resources */,
+				5167EB19A036E9C6646052C5 /* [CP] Embed Pods Frameworks */,
+				202D31BD432985BD42A1987C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CA0E84A1C5BCC21007F20DE /* Build configuration list for PBXNativeTarget "CDBarcodesUITests" */;
 			buildPhases = (
+				7C01CE98774437F4A6B165B5 /* [CP] Check Pods Manifest.lock */,
 				2CA0E8371C5BCC21007F20DE /* Sources */,
 				2CA0E8381C5BCC21007F20DE /* Frameworks */,
 				2CA0E8391C5BCC21007F20DE /* Resources */,
+				022BF72D3E68F59A032DD964 /* [CP] Embed Pods Frameworks */,
+				547CE8C20291CA521F8DE23C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +346,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022BF72D3E68F59A032DD964 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBarcodesUITests/Pods-CDBarcodesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06451DC673D24065A26DD0C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBarcodes/Pods-CDBarcodes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		202D31BD432985BD42A1987C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBarcodesTests/Pods-CDBarcodesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5167EB19A036E9C6646052C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBarcodesTests/Pods-CDBarcodesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		547CE8C20291CA521F8DE23C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBarcodesUITests/Pods-CDBarcodesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		664C5787E3A9199DF9541B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C01CE98774437F4A6B165B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D20E6D085C4272DDD0E95FA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC77D73BED0ECFD8FA19154E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBarcodes/Pods-CDBarcodes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2CA0E8181C5BCC21007F20DE /* Sources */ = {
@@ -451,6 +638,7 @@
 		};
 		2CA0E8451C5BCC21007F20DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2661E07D107A12BCF6AB3E0 /* Pods-CDBarcodes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CDBarcodes/Info.plist;
@@ -463,6 +651,7 @@
 		};
 		2CA0E8461C5BCC21007F20DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4914FF8F2E0BBFC61787C47E /* Pods-CDBarcodes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CDBarcodes/Info.plist;
@@ -475,6 +664,7 @@
 		};
 		2CA0E8481C5BCC21007F20DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289DE7ECAA68A98E3811F766 /* Pods-CDBarcodesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CDBarcodesTests/Info.plist;
@@ -488,6 +678,7 @@
 		};
 		2CA0E8491C5BCC21007F20DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD5138B917D7917B4BA445F /* Pods-CDBarcodesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CDBarcodesTests/Info.plist;
@@ -501,6 +692,7 @@
 		};
 		2CA0E84B1C5BCC21007F20DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D9791DDBAB24B023BDE55C /* Pods-CDBarcodesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CDBarcodesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -514,6 +706,7 @@
 		};
 		2CA0E84C1C5BCC21007F20DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0382B9731C285BDDC607EF /* Pods-CDBarcodesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CDBarcodesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

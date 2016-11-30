@@ -1,0 +1,6 @@
+framework module Pods_CDBarcodesTests {
+  umbrella header "Pods-CDBarcodesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
